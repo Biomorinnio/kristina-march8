@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   // ⚠️ Замени 'kristina-march8' на название своего GitHub-репозитория
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/kristina-march8',
   trailingSlash: true,
   images: {
     unoptimized: true,
